@@ -12,9 +12,7 @@ function Layout({ children, pageTitle }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <p>début du layout</p>
       {children}
-      <p>fin du layout</p>
     </>
   );
 }
