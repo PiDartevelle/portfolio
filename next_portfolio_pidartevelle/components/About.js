@@ -51,7 +51,10 @@ function About() {
           </div>
           <div className={s.a_school_text}>
             <h4>Wild Code School Lyon</h4>
-            <p className="cursus"> Développeur Web et Web Mobile (5mois)</p>
+            <p className={s.a_school_title}>
+              {" "}
+              Développeur Web et Web Mobile (5mois)
+            </p>
           </div>
         </div>
       </div>

@@ -16,9 +16,3 @@ a {
   box-sizing: border-box;
 }
 
-.surprise_chat {
-font-style: italic;}
-
-.surprise_chat:hover {
-  color: orange;
-}

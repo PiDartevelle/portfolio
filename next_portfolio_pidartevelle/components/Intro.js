@@ -1,5 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import style from "../styles/Intro.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 function Intro() {
   return (
@@ -22,6 +24,13 @@ function Intro() {
             id itaque quae, aliquid facere nulla magnam iusto excepturi? Totam
             consequatur optio aut, maiores pariatur corporis!
           </div>
+          <p className={style.i_skip}>
+            Know what you want? <br />
+            Skip the site, head over to{" "}
+            <Link href="/contact">
+              <a className={style.i_surprise_chat}>contact</a>
+            </Link>
+          </p>
         </div>
       </div>
       <div className={style.i_right}>
@@ -30,8 +39,6 @@ function Intro() {
           className={style.i_image}
           alt="handsome young man"
           src="/mimiBnW.jpg"
-          height={780}
-          width={420}
           layout="fill"
         />
       </div>

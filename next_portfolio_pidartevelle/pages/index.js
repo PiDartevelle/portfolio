@@ -1,16 +1,17 @@
 import About from "../components/About";
-import Chat from "../components/Chat";
-import DisplayProjects from "../components/DisplayProjects";
+import Contact from "../components/Contact";
 import Intro from "../components/Intro";
 import Layout from "../components/Layout";
+import ProjectList from "../components/ProjectList";
 
 export default function Home() {
   return (
     <Layout pageTitle="Home">
       <Intro />
       <About />
-      {/* <DisplayProjects />
-      <Chat /> */}
+      <ProjectList />
+      <Contact />
+      {/* <Chat /> */}
     </Layout>
   );
 }
