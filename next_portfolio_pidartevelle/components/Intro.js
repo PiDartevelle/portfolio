@@ -30,9 +30,9 @@ function Intro() {
           className={style.i_image}
           alt="handsome young man"
           src="/mimiBnW.jpg"
-          height={200}
-          width={150}
-          layout="responsive"
+          height={780}
+          width={420}
+          layout="fill"
         />
       </div>
     </div>

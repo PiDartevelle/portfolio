@@ -60,9 +60,8 @@
 
 /* ------- RIGHT SIDE -------------------------- */
 
-._image {
+.i_image {
     width: 100%;
-    height: 100vh;
     object-fit: cover;
 }
 
@@ -72,7 +71,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color: aqua;
+    background-color: black;
     clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 34% 100%, 0% 50%, 37% 0);
 
 }
