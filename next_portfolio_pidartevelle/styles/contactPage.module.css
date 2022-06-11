@@ -1,0 +1,20 @@
+.span {
+    color: orange;
+    cursor: pointer;
+}
+.span:hover {
+    color: black;
+}
+
+.contact_wrapper {
+    display: flex;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

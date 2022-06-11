@@ -19,7 +19,7 @@ function Contact() {
                   layout="fixed"
                   className={s.c_icon}
                 />
-                <p className={s.c_icon_text}> pro.dartevelle@gmail.com</p>
+                <p className={s.c_icon_text_1}> pro.dartevelle@gmail.com</p>
               </div>
               <div className={s.c_info_item}>
                 <Image
@@ -30,7 +30,7 @@ function Contact() {
                   layout="fixed"
                   className={s.c_icon}
                 />
-                <p className={s.c_icon_text}>
+                <p className={s.c_icon_text_2}>
                   {" "}
                   https://github.com/PiDartevelle
                 </p>
@@ -44,7 +44,7 @@ function Contact() {
                   layout="fixed"
                   className={s.c_icon}
                 />
-                <p className={s.c_icon_text}>
+                <p className={s.c_icon_text_3}>
                   {" "}
                   https://www.linkedin.com/in/pierre-dartevelle-6550a9235/
                 </p>

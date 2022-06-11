@@ -1,0 +1,21 @@
+.general_form {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.general_form input  {
+    margin: 1rem 0;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.general_form textarea  {
+    margin: 1rem 0;
+    height: 3rem;
+    border-radius: 3px;
+    padding: 1rem;
+}
