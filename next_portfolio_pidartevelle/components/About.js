@@ -11,8 +11,8 @@ function About() {
             className={s.a_image}
             src="/crête1.jpg"
             alt="hooded hacker"
-            height={500}
-            width={400}
+            height={700}
+            width={500}
             layout="fixed"
           />
         </div>

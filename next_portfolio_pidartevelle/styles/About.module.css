@@ -14,12 +14,12 @@
 }
 
 .a_card_bg {
-    width: 60%;
+    width: 55%;
     height: 70vh;
     border-radius: 30px;
     position: absolute;
     top: 60px;
-    left: 70px;
+    left: 80px;
     background-color: black;
 }
 .a_card {
@@ -38,7 +38,7 @@
 .a_right {
     flex: 1;
     text-align: justify;
-    margin-right: 10px;
+    margin-right: 60px;
 }
 .a_title {
 font-weight: 400;
