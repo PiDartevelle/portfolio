@@ -2,6 +2,7 @@
 import s from "../styles/ProjectList.module.css";
 import Project from "./Project";
 import { projects } from "../public/data";
+import { Router } from "next/router";
 
 function ProjectList() {
   return (
@@ -10,10 +11,8 @@ function ProjectList() {
         <h1 className={s.pl_title}>What I've had my hands on so far</h1>
         <p className={s.pl_desc}>
           {" "}
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, cumque
-          voluptatibus accusantium odit quo illum error libero ipsum qui
-          voluptates. Eveniet consequatur eos voluptatibus deleniti alias? Eius
-          doloremque illum officia!
+          All these projects, at the expection of this very portfolio, were made
+          within the 5 months learning Code at the Wild Code School.
         </p>
       </div>
       <div className={s.pl_list}>
@@ -23,6 +22,7 @@ function ProjectList() {
             img={pro.img}
             link={pro.link}
             title={pro.title}
+            desc={pro.desc}
           />
         ))}
       </div>

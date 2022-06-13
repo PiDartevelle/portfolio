@@ -10,7 +10,6 @@ function contact() {
     <Layout pageTitle="Contact">
       <div className={s.contact_wrapper}>
         <div className={s.left}>
-          <h1>This is the part where we can keep in touch</h1>
           <h2>
             {" "}
             You can alway go back{" "}

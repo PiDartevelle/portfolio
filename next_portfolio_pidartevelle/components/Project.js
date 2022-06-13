@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import s from "../styles/Project.module.css";
 
-function Project({ img, link, title }) {
+function Project({ img, link, title, desc }) {
   return (
     <div className={s.p}>
       <div className={s.p_browser}>
@@ -14,6 +14,8 @@ function Project({ img, link, title }) {
 
         <p className={s.p_project_title}>{title}</p>
       </div>
+      <p>{desc}</p>
+
       <Link href={link} target="_blank">
         <Image
           src={img}

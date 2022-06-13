@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import Chat from "./Chat";
-import Header from "./Header";
+import ScrollToTop from "react-scroll-to-top";
 
 function Layout({ children, pageTitle }) {
   return (
@@ -15,6 +14,7 @@ function Layout({ children, pageTitle }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {children}
+      <ScrollToTop smooth />
     </>
   );
 }

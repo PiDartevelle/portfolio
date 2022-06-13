@@ -18,26 +18,18 @@ function About() {
         </div>
       </div>
       <div className={s.a_right}>
-        <h1 className={s.a_title}>Random but sexy title</h1>
+        <h1 className={s.a_title}>A little about me</h1>
         <p className={s.a_sub}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-          repudiandae necessitatibus corporis voluptas, provident facere
-          accusantium a, illum impedit et at quaerat veritatis temporibus ex
-          minima sit sint, soluta perferendis.
+          Communication, people and stress management, responsabilities, each
+          and every one of these skills obatined managing a restaurant will be
+          so useful in this new career
         </p>
         <p className={s.a_desc}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, iusto
-          numquam? Ipsam vero quaerat unde doloribus architecto dolor veniam.
-          Eveniet deleniti corrupti aperiam autem eius assumenda pariatur eos
-          reiciendis magni, asperiores nemo doloremque totam laudantium
-          architecto adipisci officiis fuga eligendi, neque temporibus possimus
-          omnis cum animi quas? Voluptate, quaerat odio cumque ut veniam
-          voluptatibus quidem officiis quasi, repudiandae aut, ipsam quae
-          cupiditate libero vel sapiente. Eos soluta atque eum, vitae, esse quis
-          a maiores neque velit doloribus natus vel unde veritatis excepturi
-          magni quae pariatur possimus doloremque. Error veritatis ipsa nisi
-          accusamus vel beatae harum laborum. Voluptates suscipit tempora
-          tenetur?
+          After these five months learning code the full-stack way, it's quite
+          obvious this new world and opportunities will require a never-ending
+          learning approach. I'm quite excited to see how far I've already come
+          as the journey is only beginning. I'd love the opportunity to apply
+          those newly learned skills in whatever capacity required!
         </p>
         <div className={s.a_school}>
           <div className={s.a_school_image}>
@@ -53,7 +45,7 @@ function About() {
             <h4>Wild Code School Lyon</h4>
             <p className={s.a_school_title}>
               {" "}
-              Développeur Web et Web Mobile (5mois)
+              'Développeur Web et Web Mobile' (5months)
             </p>
           </div>
         </div>

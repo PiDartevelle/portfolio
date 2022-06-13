@@ -22,6 +22,12 @@
     justify-content: space-between;
 }
 
+.i_description {
+    line-height: 1.5rem;
+    font-size: large;
+    text-align: justify;
+}
+
 .i_intro {
     font-size: 2rem;
     font-weight: 300;
@@ -32,6 +38,8 @@
 
 .i_skip {
     margin-top: 100px;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .i_surprise_chat{
     color: orange;

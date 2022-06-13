@@ -18,11 +18,12 @@ function Intro() {
             </div>
           </div>
           <div className={style.i_description}>
-            I really should find some text to put around here to better explain
-            who I am and what I do... Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Reprehenderit amet enim sed illo, exercitationem
-            id itaque quae, aliquid facere nulla magnam iusto excepturi? Totam
-            consequatur optio aut, maiores pariatur corporis!
+            After ten years waitering tables and managing restaurants, I've
+            decided to allow myself a new start, and started learning code. And
+            I can't stop! It really stuck, so instead of learning alone and by
+            myself, I started a 5 months long bootcamp to get things to the next
+            level. I'm now looking for the opportunity to go even further in a
+            company that would give me the chance to keep on improving.
           </div>
           <p className={style.i_skip}>
             Know what you want? <br />

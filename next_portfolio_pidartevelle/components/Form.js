@@ -10,10 +10,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "process.env.SERVICE_ID",
-        "process.env.EMPLATE_ID",
+        "service_p61tpxp",
+        "template_f8pkvx6",
         form.current,
-        "process.env.PUBLIC_KEY"
+        "vqMzJntTYiFtXD1Ns"
       )
       .then(
         (result) => {
@@ -23,6 +23,7 @@ const ContactUs = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -33,7 +34,7 @@ const ContactUs = () => {
       <input type="email" name="user_email" required />
       <label>And a message!</label>
       <textarea name="message" />
-      <input type="submit" value="Send" required />
+      <input type="submit" value="Send" />
     </form>
   );
 };

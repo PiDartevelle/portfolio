@@ -14,7 +14,7 @@
 }
 
 .a_card_bg {
-    width: 55%;
+    width: 65%;
     height: 70vh;
     border-radius: 30px;
     position: absolute;
@@ -47,12 +47,15 @@ font-weight: 400;
     margin: 20px 0px;
 }
 .a_desc {
+    margin-top: 4rem;
     font-weight: 300;
+    line-height: 1.5rem;
+    font-size: large;
 }
 .a_school {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
     justify-content: space-evenly;
 }
 .a_school_text {
