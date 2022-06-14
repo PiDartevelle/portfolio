@@ -12,9 +12,9 @@ function Intro() {
           <h1 className={style.i_name}>Pierre Dartevelle</h1>
           <div className={style.i_title}>
             <div className={style.i_title_wrapper}>
-              <div className={style.i_title_item}>Web developer</div>
-              <div className={style.i_title_item}>UI/UX Designer</div>
-              <div className={style.i_title_item}>Student</div>
+              <div className={style.i_title_item}>Junior Web developper</div>
+              <div className={style.i_title_item}>React/Next/Javascript</div>
+              <div className={style.i_title_item}>NodeJS/Express/mySQL</div>
             </div>
           </div>
           <div className={style.i_description}>

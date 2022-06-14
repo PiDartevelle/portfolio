@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import s from "../styles/About.module.css";
 
@@ -11,8 +12,8 @@ function About() {
             className={s.a_image}
             src="/crête1.jpg"
             alt="hooded hacker"
-            height={700}
-            width={500}
+            height={400}
+            width={300}
             layout="fixed"
           />
         </div>
@@ -21,7 +22,7 @@ function About() {
         <h1 className={s.a_title}>A little about me</h1>
         <p className={s.a_sub}>
           Communication, people and stress management, responsabilities, each
-          and every one of these skills obatined managing a restaurant will be
+          and every one of these skills obtained managing a restaurant will be
           so useful in this new career
         </p>
         <p className={s.a_desc}>

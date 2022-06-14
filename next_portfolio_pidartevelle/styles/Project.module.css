@@ -16,12 +16,6 @@
     z-index: 2;
 
 }
-.p_project_title {
-    font-size: smaller;
-    color: rgb(55, 52, 52);
-    margin-right: 50px;
-    font-style: italic;
-}
 .p_circles {
     display: flex;
 }

@@ -11,8 +11,6 @@ function Project({ img, link, title, desc }) {
           <div className={s.p_circle}></div>
           <div className={s.p_circle}></div>
         </div>
-
-        <p className={s.p_project_title}>{title}</p>
       </div>
 
       <Link href={link} target="_blank">
