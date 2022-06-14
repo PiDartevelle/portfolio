@@ -17,6 +17,7 @@
 
 .c_left {
     flex: 1;
+    margin-left: 3rem;
 }
 
 .c_right {
@@ -26,9 +27,9 @@
     color: orange;
 }
 .c_title {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
-    width: 80%;
+    width: 70%;
     animation: apparition 0.8s ease-out;
 }
 @keyframes apparition {

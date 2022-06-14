@@ -14,7 +14,6 @@ function Project({ img, link, title, desc }) {
 
         <p className={s.p_project_title}>{title}</p>
       </div>
-      <p>{desc}</p>
 
       <Link href={link} target="_blank">
         <Image

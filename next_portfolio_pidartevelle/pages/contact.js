@@ -10,7 +10,7 @@ function contact() {
     <Layout pageTitle="Contact">
       <div className={s.contact_wrapper}>
         <div className={s.left}>
-          <h2>
+          <h2 className={s.back_btn}>
             {" "}
             You can alway go back{" "}
             <Link href="/" className={s.c_backHome}>
@@ -20,6 +20,7 @@ function contact() {
           <Contact />
         </div>
         <div className={s.right}>
+          <div className={s.poly_bg}></div>
           <Form />
         </div>
       </div>

@@ -35,7 +35,6 @@ function Intro() {
         </div>
       </div>
       <div className={style.i_right}>
-        <div className={style.i_bg}></div>
         <Image
           className={style.i_image}
           alt="handsome young man"

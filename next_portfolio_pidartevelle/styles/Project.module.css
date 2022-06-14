@@ -33,11 +33,23 @@
     border-radius: 50%;
     color: rgb(87, 14, 14);
 }
+.project_desc {
+background-color: rgb(40, 38, 38);
+color: orange;
+font-size: .8rem;
+padding: .5rem;
+text-align: left;
+border-radius: 3px;
+height: 20%;
+line-height: 1.1rem;
+margin: 0;
+}
 .p_img {
     width: 100%;
     transition: all 10s ease;
-}
-.p:hover .p_img{
-    transform: translateY(-100%);
     cursor: pointer;
 }
+/* .p:hover .p_img{
+    transform: translateY(-50%);
+    cursor: pointer;
+} */

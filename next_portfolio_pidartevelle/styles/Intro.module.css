@@ -85,13 +85,3 @@
     object-fit: cover;
 }
 
-.i_bg {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: black;
-    clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 34% 100%, 0% 50%, 37% 0);
-
-}

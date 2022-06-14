@@ -3,7 +3,7 @@
     cursor: pointer;
 }
 .span:hover {
-    color: black;
+    color: green;
 }
 
 .contact_wrapper {
@@ -17,4 +17,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.back_btn {
+    background-color: black;
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 2rem;
+}
+
+.poly_bg {
+    height: 100%;
+    width: 90%;
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    clip-path: polygon(100% 0%, 10% 54%, 60% 100%, 34% 100%, 0% 50%, 37% 0);
+
 }
