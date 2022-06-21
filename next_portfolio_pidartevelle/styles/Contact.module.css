@@ -1,18 +1,11 @@
-.c {
-    height: 100vh;
-    position: relative;
-}
-
-.c_bg {
-    width: 20px;
-    height: 100%;
-    background-color: black;
-    position: absolute;
+.link:hover {
+    color: orange;
+    cursor: pointer;
 }
 
 .c_wrapper {
     display: flex;
-    padding: 50px;
+    margin-left: 5rem;
 }
 
 .c_left {
@@ -27,7 +20,7 @@
     color: orange;
 }
 .c_title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     width: 70%;
     animation: apparition 0.8s ease-out;

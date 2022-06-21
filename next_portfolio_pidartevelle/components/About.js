@@ -10,7 +10,7 @@ function About() {
           <div className={s.a_card_bg}></div>
           <Image
             className={s.a_image}
-            src="/crête1.jpg"
+            src="/randoCrête.jpg"
             alt="hooded hacker"
             height={400}
             width={300}

@@ -29,11 +29,11 @@ const ContactUs = () => {
   return (
     <form ref={form} onSubmit={sendEmail} className={s.general_form}>
       <label>Enter your name:</label>
-      <input type="text" name="user_name" required />
+      <input type="text" className={s.text_area} name="user_name" required />
       <label>Add your mail:</label>
-      <input type="email" name="user_email" required />
+      <input type="email" className={s.text_area} name="user_email" required />
       <label>And a message!</label>
-      <textarea name="message" />
+      <textarea name="message" className={s.message_area} />
       <input type="submit" value="Send" />
     </form>
   );

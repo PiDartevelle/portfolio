@@ -23,6 +23,7 @@
 }
 
 .i_description {
+    margin-top: 2rem;
     line-height: 1.2rem;
     font-size: medium;
     text-align: justify;
@@ -58,22 +59,22 @@
 
 .i_title_wrapper {
     height: 100%;
-    animation: move 6s ease-in-out infinite alternate;
+    animation: move 5s ease-in-out infinite alternate;
 }
 @keyframes move {
     50%{
-        transform: translateY(-30px);
+        transform: translateY(-50px);
     }
     75%{
-        transform: translateY(-65px);
+        transform: translateY(-75px);
     }
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-120px);
     }
 }
 
 .i_title_item{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: orange;
     display: flex;

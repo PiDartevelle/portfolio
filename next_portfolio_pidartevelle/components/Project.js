@@ -13,14 +13,16 @@ function Project({ img, link, title, desc }) {
         </div>
       </div>
 
-      <Link href={link} target="_blank">
-        <Image
-          src={img}
-          alt="project"
-          height={1100}
-          width={500}
-          className={s.p_img}
-        />
+      <Link href={link}>
+        <a target={"_blank"}>
+          <Image
+            src={img}
+            alt="project"
+            height={1100}
+            width={500}
+            className={s.p_img}
+          />
+        </a>
       </Link>
     </div>
   );

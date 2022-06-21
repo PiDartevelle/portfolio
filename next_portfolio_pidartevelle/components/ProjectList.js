@@ -11,9 +11,12 @@ function ProjectList() {
         <h1 className={s.pl_title}>What I've had my hands on so far</h1>
         <p className={s.pl_desc}>
           {" "}
-          (Disclaimer : All these projects, at the expection of this very
-          portfolio, were made as part of our formation during the 5 months
-          learning Code at the Wild Code School.)
+          (Disclaimer : All these projects, alongside this very portfolio, were
+          made as part of our formation during the 5 months learning Code at the
+          Wild Code School. It still amazes me to see what you can achieve when
+          you put your mind and energy to it! Don't hesitate to click and have a
+          look. Also bear in mind these were made after a few weeks of learning
+          only :-)
         </p>
       </div>
       <div className={s.pl_list}>

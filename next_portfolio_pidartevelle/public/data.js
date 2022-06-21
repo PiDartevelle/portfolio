@@ -16,7 +16,7 @@ export const projects = [
   {
     id: 3,
     img: "/QOTQOT.png",
-    link: "https://google.com",
+    link: "disabled",
     title: "QOT QOT",
     desc: "Last school project, now for a real client. We were tasked to create a B2B application for stock managing and ordering purposes. Stacks used: NextJS, Airtable, CSS",
   },
