@@ -24,3 +24,20 @@
     height: 8rem;
     width: 80%;
 }
+
+@media screen and (max-width:480px) {
+
+    .message_area {
+        width: 100%;
+    }
+    .general_form {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 60vh;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+}

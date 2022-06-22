@@ -40,3 +40,18 @@
     clip-path: polygon(100% 0%, 10% 54%, 60% 100%, 34% 100%, 0% 50%, 37% 0);
 
 }
+
+@media screen and (max-width:480px) {
+    .contact_wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .right {
+        width: 100%;
+    }
+    .poly_bg {
+        height: 150%;
+    }
+}
