@@ -65,3 +65,43 @@ font-weight: 400;
     font-weight: bold;
     color: #555;
 }
+
+@media screen and (max-width:480px) {
+    .a {
+        flex-direction: column;
+        height: 80vh;
+    }
+    .a_card {
+        display: none;
+    }
+    .a_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .a_title {
+        margin-top: 1rem;
+        text-align: center;
+        color: orange;
+    }
+    .a_sub {
+        width: 100%;
+        margin-left: 2rem;
+        text-align: justify;
+
+    }
+    .a_desc {
+        width: 100%;
+        margin-left: 2rem;
+        text-align: justify;
+    }
+    .a_school{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+}
