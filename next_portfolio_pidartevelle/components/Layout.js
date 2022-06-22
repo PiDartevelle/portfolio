@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import ScrollToTop from "react-scroll-to-top";
+import { Toggle } from "./Toggle";
 
 function Layout({ children, pageTitle }) {
   return (
@@ -13,6 +14,7 @@ function Layout({ children, pageTitle }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Toggle />
       {children}
       <ScrollToTop smooth />
     </>
