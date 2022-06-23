@@ -93,7 +93,7 @@
 @media screen and (max-width:480px) {
     .i {
         flex-direction: column;
-        height: 160vh;
+        height: 180vh;
     }
     .i_left_wrapper {
         padding: 10px;

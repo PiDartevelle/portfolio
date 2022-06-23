@@ -18,7 +18,7 @@ function Intro() {
             </div>
           </div>
           <div className={style.i_description}>
-            After ten years waitering tables and managing restaurants, I've
+            After ten years waitering tables and managing a restaurant, I've
             decided to allow myself a new start, and started learning code. And
             I can't stop! It really stuck, so instead of learning alone and by
             myself, I started a 5 months long bootcamp to get things to the next
