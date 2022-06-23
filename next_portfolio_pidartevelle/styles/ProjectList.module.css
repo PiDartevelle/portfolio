@@ -40,6 +40,8 @@
     }
     .pl_texts {
         font-size: 100%;
+        width: 100%;
+        margin: 3rem;
     }
     .pl_list {
         flex-direction: column;
