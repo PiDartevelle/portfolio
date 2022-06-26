@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     img: "/TETRIS.png",
-    link: "https://amazing-fairy-cc91be.netlify.app/index.html",
+    link: "https://wcs-project1-tetris-zero.netlify.app/",
     title: "Homemade Tetris",
     desc: "First coding experience, trying to reproduce a working Tetris was a bit of a challenge three weeks in formation! Stacks used : HTML, CSS, vanilla JS",
   },
